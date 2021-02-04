@@ -14,13 +14,16 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .container {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: white;
+    padding: 5em;
 }
 
 .card {
