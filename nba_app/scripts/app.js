@@ -12,7 +12,7 @@ async function getTeam(id){
 .then(res => res.json())
 .then(data => {
 	console.log(data.data[id].full_name)
-	container.insertAdjacentHTML('beforeend',`<div class="team"><img src="./img/${id}.png" alt=""><h1>${data.data[id].full_name}</h1></div>`)
+	container.insertAdjacentHTML('beforeend',`<div class="team"><img src="./nba_app/img/${id}.png" alt=""><h1>${data.data[id].full_name}</h1></div>`)
 })
 }
 

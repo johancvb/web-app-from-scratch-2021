@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
 body {
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     align-items: center;
@@ -12,19 +16,31 @@ body {
     width: 100%;
 }
 
+header{
+    display: flex;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 200px;
+}
+
 .app {
     position: relative;
     display: flex;
-    padding: 1px;
     justify-content: center;
 }
 
 .container {
     position: absolute;
-    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3));
     padding: 5em;
-    
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -32,12 +48,15 @@ body {
     grid-template-areas:
         ". . ."
         ". . ."
-        ". . ."
+        ". . .";
+    border-radius: 1em;
+    
+    
 }
 
 .team {
     margin: 10px;
-    background: gray;
+    background: rgba(255, 255, 255, 0.7);
     width: 250px;
     text-align: center;
     padding: 10px;
