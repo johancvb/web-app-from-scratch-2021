@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-html {
-    height: 100%;
-    width: 100%;
-}
-
 body {
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     align-items: center;
@@ -28,13 +23,34 @@ body {
     position: absolute;
     background: white;
     padding: 5em;
+    
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-        ". . . . . . . . . ."
-        ". . . . . . . . . ."
-        ". . . . . . . . . ."
+        ". . ."
+        ". . ."
+        ". . ."
+}
+
+.team {
+    margin: 10px;
+    background: gray;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2em;
+}
+
+.team:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
 }
