@@ -73,3 +73,20 @@ header img {
     width: 200px;
     height: 200px;
 }
+
+.players {
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3));
+    padding: 5em;
+    border-radius: 1em;
+    
+}
+
+.player {
+    background: white;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
