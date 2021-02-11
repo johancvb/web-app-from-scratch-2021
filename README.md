@@ -1,5 +1,15 @@
 # ReadMe week 2 #
 
+Ik heb deze week mijn web app uitgebreid met een detailed page.
+Hij werkt, alleen moet er nog veel gedaan worden aan de styling. Ook moet ik nog routing toepassen, maar zie dat als een grote uitdaging.
+Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze laten de structuur en werking van mijn app zien.
+
+Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
+je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
+
+Als je op een van de spelers klikt, verschijnt er een popup met de bijbehorende informatie van die speler, zoals lengte, positie, gewicht enz.
+
+Volgende week wil ik de routing werkend hebben, zodat ik daarna kan beginnen aan het stylen van de web app.
 
 
 
