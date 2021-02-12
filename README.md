@@ -13,8 +13,6 @@ Volgende week wil ik de routing werkend hebben, zodat ik daarna kan beginnen aan
 
 
 
-
-
 # ReadMe week 1 #
 
 ---Hier een link naar mijn opdracht:---
