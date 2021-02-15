@@ -10,11 +10,11 @@ Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze lat
 
 Actor Diagram:
 
-![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/actor_diagram.JPG)
+![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/actor_diagram.JPG?raw=true)
 
 Interaction Diagram:
 
-![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/interaction_diagram.JPG)
+![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/interaction_diagram.JPG?raw=true)
 
 Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
 je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
@@ -42,6 +42,8 @@ Ik maak gebruik van de API: Free NBA van theapiguy (https://rapidapi.com/theapig
 
 Ik gebruik voor de overview page de endpoint ".../teams", om zo alle teams uit de NBA te renderen.
 Ook wil ik gebruik maken van de endpoint ".../players", om zo uiteindelijk per speler de bijbehorende informatie te laten zien.
+
+De API geeft data over bijvoorbeeld: naam van speler, lengte van speler, positie van speler, in welk team deze speler speelt/heeft gespeeld, etc.
 
 ---Hoe zit het met interactie in mijn app?---
 Ik wil mijn app het de gebruiker gemakkelijk maken, door bijvoorbeeld een overzichtelijke style te gebruiken, en de gebruiker duidelijk te vragen/zeggen wat te doen.

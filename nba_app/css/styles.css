@@ -54,24 +54,30 @@ header img {
     
 }
 
-.team {
+#teams-overview {
     margin: 10px;
     background: rgba(255, 255, 255, 0.7);
     width: 250px;
+    height: 300px;
     text-align: center;
     padding: 10px;
     border-radius: 2em;
 }
 
-.team:hover {
+#teams-overview:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 
-.team img {
+#teams-overview img {
     width: 200px;
     height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .players {

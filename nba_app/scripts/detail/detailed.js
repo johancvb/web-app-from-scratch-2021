@@ -21,7 +21,7 @@ async function getPlayers() {
 					var team = data.data[i].team.name
 
 
-					if (data.data[i].team.name === "Heat") {
+					if (data.data[i].team.name === "Rockets") {
 
 						console.log(team)
 						players.insertAdjacentHTML('beforeend', `<div class="player"><h1>${data.data[i].first_name} ${data.data[i].last_name}</h1></div>`)
