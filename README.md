@@ -1,8 +1,20 @@
+#### LINK NAAR APP ###
+
+https://johancvb.github.io/web-app-from-scratch-2021/
+
 # ReadMe week 2 #
 
 Ik heb deze week mijn web app uitgebreid met een detailed page.
 Hij werkt, alleen moet er nog veel gedaan worden aan de styling. Ook moet ik nog routing toepassen, maar zie dat als een grote uitdaging.
 Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze laten de structuur en werking van mijn app zien.
+
+Actor Diagram:
+
+![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/actor_diagram.JPG)
+
+Interaction Diagram:
+
+![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/interaction_diagram.JPG)
 
 Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
 je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
