@@ -1,40 +1,26 @@
-const players = document.querySelector('.app .players');
+import { fetchAllPlayersFromApi } from './../api/apiHandler.js';
 
 // get players from api
 
-async function getPlayers() {
+export async function getPlayers(teamId) {
+	const players = document.querySelector('.players');
 
-	for (j = 1; j < 36; j++) {
+	console.log('started fetching all players')
+	const unmappedFetchedPlayers = await fetchAllPlayersFromApi(teamId);
+	console.log('ended fetching all players');
 
-		fetch(`https://free-nba.p.rapidapi.com/players?page=${j}&per_page=100`, {
-			"method": "GET",
-			"headers": {
-				"x-rapidapi-key": "f13b636f5fmshaea25718ef36c73p1829b0jsncd19791a2844",
-				"x-rapidapi-host": "free-nba.p.rapidapi.com"
+	unmappedFetchedPlayers.forEach(fetchedPlayers => {
+		for (const teamOfFetchedPlayer of fetchedPlayers.data) {
+			if (teamOfFetchedPlayer.team.id === 15) {
+				players.insertAdjacentHTML('beforeend', `
+					<div class="player">
+					<h1>${teamOfFetchedPlayer.first_name} ${teamOfFetchedPlayer.last_name}</h1>
+					</div>`
+				)
 			}
-		})
-			.then(res => res.json())
-			.then(data => {
-				console.log(data)
-
-				for (i = 0; i < 100; i++) {
-					var team = data.data[i].team.name
-
-
-					if (data.data[i].team.name === "Rockets") {
-
-						console.log(team)
-						players.insertAdjacentHTML('beforeend', `<div class="player"><h1>${data.data[i].first_name} ${data.data[i].last_name}</h1></div>`)
-					}
-				}
-			}
-			)
-
-	}
+		}
+	});	
 }
 
 
-
-
-getPlayers()
 

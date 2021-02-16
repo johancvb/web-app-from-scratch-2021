@@ -34,6 +34,11 @@ header img {
     justify-content: center;
 }
 
+.app .players {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     position: absolute;
     background: linear-gradient(
@@ -51,10 +56,9 @@ header img {
         ". . .";
     border-radius: 1em;
     
-    
 }
 
-#teams-overview {
+.container a {
     margin: 10px;
     background: rgba(255, 255, 255, 0.7);
     width: 250px;
@@ -62,31 +66,35 @@ header img {
     text-align: center;
     padding: 10px;
     border-radius: 2em;
+    text-decoration: none;
+    color: black;
 }
 
-#teams-overview:hover {
+.container a:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 
-#teams-overview img {
+.container a img {
     width: 200px;
     height: 200px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+#team-detail {
+    display: flex;
+    flex-direction: column;
 }
 
 .players {
-    background: linear-gradient(
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.7),
         rgba(255, 255, 255, 0.3));
     padding: 5em;
-    border-radius: 1em;
+    border-radius: 1em; */
     
 }
 
