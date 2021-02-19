@@ -10,11 +10,11 @@ Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze lat
 
 Actor Diagram:
 
-![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/actor_diagram.JPG?raw=true)
+![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/actor_diagram.JPG?raw=true)
 
 Interaction Diagram:
 
-![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/interaction_diagram.JPG?raw=true)
+![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/interaction_diagram.JPG?raw=true)
 
 Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
 je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
