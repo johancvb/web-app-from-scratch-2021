@@ -13,5 +13,6 @@ routie('team/:teamId', (teamId) => {
 
   // hierna renderen detail page
   getPlayers(teamId);
+  console.log(teamId)
 });
 

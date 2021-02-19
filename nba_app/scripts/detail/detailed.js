@@ -11,7 +11,7 @@ export async function getPlayers(teamId) {
 
 	unmappedFetchedPlayers.forEach(fetchedPlayers => {
 		for (const teamOfFetchedPlayer of fetchedPlayers.data) {
-			if (teamOfFetchedPlayer.team.id === 15) {
+			if (teamOfFetchedPlayer.team.id === Number(teamId)) {
 				players.insertAdjacentHTML('beforeend', `
 					<div class="player">
 					<h1>${teamOfFetchedPlayer.first_name} ${teamOfFetchedPlayer.last_name}</h1>
