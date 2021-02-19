@@ -2,6 +2,17 @@
 
 https://johancvb.github.io/web-app-from-scratch-2021/
 
+# ReadMe week 3 #
+
+Deze week heb ik met hulp van een teamgenoot mijn code veel overzichtelijker en effetiever gemaakt.
+Ook heb ik deze week mijn routing geïmplementeerd, en de detail pagina werkend gemaakt.
+
+De spelers per team worden nu op een veel effectievere en efficientere manier gerendert uit de iteraties
+van de API data.
+
+Ik ga in de vakantie vooral werken aan het afronden van de app. Ik moet nog een loading state implementeren,
+en de styling van de app veranderen. Ook wil ik nog een nieuwe functie voor mijn detailed pagina toepassen.
+
 # ReadMe week 2 #
 
 Ik heb deze week mijn web app uitgebreid met een detailed page.
