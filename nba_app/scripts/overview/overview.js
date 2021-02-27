@@ -2,6 +2,8 @@ import { fetchAllTeams } from './overviewController.js';
 
 export async function renderTeamsOverview() {
     const unmappedFetchedTeams = await fetchAllTeams();
+    const loader = document.querySelector(".loader");
+    
     const fetchedTeams = unmappedFetchedTeams.data;
     let teamsOverviewElement = document.getElementsByClassName('container')[0];
 
@@ -13,4 +15,5 @@ export async function renderTeamsOverview() {
             <h1>${fetchedTeams[index].full_name}</h1>
         </a>`);
     }
+    loader.className += " hidden"
 }

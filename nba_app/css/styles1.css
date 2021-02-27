@@ -83,4 +83,52 @@ header h1 {
 .players details {
     background: white;
     height: 100%;
+    cursor: pointer;
+    outline: none;
 }
+
+.players details:active {
+    outline: none;
+}
+
+.loader {
+    
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.loader h1 {
+    width: 100%;
+    padding-bottom: 40px; 
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.loader.hidden {
+    display: none;
+}
+
+@keyframes pulse {
+    0%     { opacity: .1; }
+    20%    { opacity: .8; }
+    100%   { opacity: .1; }
+}
+
+svg path {
+    animation-duration: 1s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    color: black;
+}
+
+.bb-7 { animation-delay: -1s }
+.bb-6 { animation-delay: -.875s }
+.bb-5 { animation-delay: -.75s }
+.bb-4 { animation-delay: -.625s }
+.bb-3 { animation-delay: -.5s }
+.bb-2 { animation-delay: -.375s }
+.bb-1 { animation-delay: -.25s }
+.bb-0 { animation-delay: -.125s }
