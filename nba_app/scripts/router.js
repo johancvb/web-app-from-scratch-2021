@@ -10,6 +10,7 @@ routie('overview', () => {
 routie('team/:teamId', (teamId) => {
   document.getElementsByClassName('container')[0].style.display = 'none';
   document.getElementById('team-detail').style.display = 'grid';
+  document.getElementById('#open_h1').style.display = 'none';
 
   // hierna renderen detail page
   getPlayers(teamId);
