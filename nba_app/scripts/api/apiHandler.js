@@ -1,5 +1,7 @@
 const sleep = m => new Promise(r => setTimeout(r, m));
 
+// FETCHING TEAMS FROM API
+
 export async function fetchAllTeamsFromApi() {
     try {
         const fetchedTeams = await fetch("https://free-nba.p.rapidapi.com/teams", {
@@ -9,12 +11,13 @@ export async function fetchAllTeamsFromApi() {
                 "x-rapidapi-host": "free-nba.p.rapidapi.com"
             }
         });
-        
         return fetchedTeams.json();
     } catch(error) {
         console.log(error);
     }
 }
+
+// FETCHING PLAYERS FROM API
 
 export async function fetchAllPlayersFromApi() {
     try {
@@ -28,14 +31,11 @@ export async function fetchAllPlayersFromApi() {
                         "x-rapidapi-host": "free-nba.p.rapidapi.com"
                     }
             });
-
             response.json().then(fetchedPlayers => {
                 allPlayers.push(fetchedPlayers);
             })
-
             await sleep(50);
         }
-        
         return allPlayers;
     } catch(error) {
         console.log(error);
