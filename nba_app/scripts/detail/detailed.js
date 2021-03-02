@@ -21,7 +21,7 @@ export async function getPlayers(teamId) {
 	    <img src="./nba_app/img/${teamId}.png" alt="">
 	</div>
 	<input type="text" name="searchBar" id="searchBar" placeholder="Search player...">
-
+	<h1>All players:</h1>
 	`)
 
 	// RENDER FETCHED PLAYERS

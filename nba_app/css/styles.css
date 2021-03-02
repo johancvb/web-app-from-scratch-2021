@@ -70,7 +70,7 @@ header h1 {
     
 }
 
-.container img {
+.container img, .team_detailed img {
     width: 300px;
     height: 300px;
 }
@@ -113,9 +113,11 @@ header h1 {
     outline: none;
 }
 
-.players details:active {
+.players summary:focus {
     outline: none;
+    border: none;
 }
+
 
 .players summary {
     height: 100px;
