@@ -42,6 +42,14 @@ Dit is de eerste keer dat ik met een API heb gewerkt, en zag het als een enorme 
 Tijdens het programmeren liep ik steeds vast op de structuur waarop de data is opgeslagen in de API. Dit zorgde voor veel problemen en irritaties, aangezien de API maar 100 spelers per array kan hebben. De API bestaat uit 35 arrays, dus ik moest een itertaie maken waardoor de app door elke pagina heen moest itereren over de 100 spelers.<br>
 Dit zorgde, voor mij als nieuweling, voor veel irritaties.
 
+# Actor Diagram:
+
+![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/actor_diagram2.JPG?raw=true)
+
+# Interaction Diagram:
+
+![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/interaction_diagram2.JPG?raw=true)
+
 # ReadMe's #
 - ReadMe week 3 
 
@@ -52,7 +60,7 @@ De spelers per team worden nu op een veel effectievere en efficientere manier ge
 van de API data.
 
 Ik ga in de vakantie vooral werken aan het afronden van de app. Ik moet nog een loading state implementeren,
-en de styling van de app veranderen. Ook wil ik nog een nieuwe functie voor mijn detailed pagina toepassen.
+en de styling van de app veranderen. Ook wil ik nog een nieuwe functie voor mijn detailed pagina toepassen.<br><br>
 
 - ReadMe week 2 
 
@@ -60,20 +68,12 @@ Ik heb deze week mijn web app uitgebreid met een detailed page.
 Hij werkt, alleen moet er nog veel gedaan worden aan de styling. Ook moet ik nog routing toepassen, maar zie dat als een grote uitdaging.
 Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze laten de structuur en werking van mijn app zien.
 
-# Actor Diagram:
-
-![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/actor_diagram2.JPG?raw=true)
-
-# Interaction Diagram:
-
-![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/interaction_diagram2.JPG?raw=true)
-
 Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
 je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
 
 Als je op een van de spelers klikt, verschijnt er een popup met de bijbehorende informatie van die speler, zoals lengte, positie, gewicht enz.
 
-Volgende week wil ik de routing werkend hebben, zodat ik daarna kan beginnen aan het stylen van de web app.
+Volgende week wil ik de routing werkend hebben, zodat ik daarna kan beginnen aan het stylen van de web app.<br><br>
 
 
 
