@@ -4,10 +4,10 @@ Hieronder de link naar een live demo van mijn app:
 
 https://johancvb.github.io/web-app-from-scratch-2021/
 
-- Overview page: 
+- Overview page: <br> <br>
 ![Overview Page](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/overview.JPG?raw=true)
 
-- Detailed page:
+- Detailed page: <br><br>
 ![Detailed Page](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/overview.JPG?raw=true)
 
 
@@ -60,13 +60,13 @@ Ik heb deze week mijn web app uitgebreid met een detailed page.
 Hij werkt, alleen moet er nog veel gedaan worden aan de styling. Ook moet ik nog routing toepassen, maar zie dat als een grote uitdaging.
 Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze laten de structuur en werking van mijn app zien.
 
-Actor Diagram:
+# Actor Diagram:
 
-![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/actor_diagram.JPG?raw=true)
+![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/actor_diagram2.JPG?raw=true)
 
-Interaction Diagram:
+# Interaction Diagram:
 
-![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/interaction_diagram.JPG?raw=true)
+![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/interaction_diagram2.JPG?raw=true)
 
 Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
 je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
