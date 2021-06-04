@@ -1,23 +1,22 @@
-# LINK NAAR APP #
+# LINK NAAR APP
 
 Hieronder de link naar een live demo van mijn app:
 
 https://johancvb.github.io/web-app-from-scratch-2021/
 
 - Overview page: <br> <br>
-![Overview Page](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/overview.JPG?raw=true)
+  ![Overview Page](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/overview.JPG?raw=true)
 
 - Detailed page: <br><br>
-![Detailed Page](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/overview.JPG?raw=true)
+  ![Detailed Page](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/overview.JPG?raw=true)
 
-
-# Waarom deze app? #
+# Waarom deze app?
 
 Ik ben een groot fan van NBA beasketbal, dus leek het me daarom leuk om een soort spelers-database te maken. <br><br>
 Door middel van deze app kun je per team, alle spelers zien die voor dat team hebben gespeeld/spelen. Ook kun je, indien beschikbaar, verschillende informatie van een speler zien. <br><br>
-Per team kun je ook zoeken naar een specifieke speler via een zoekbalk, om zo sneller een speler te vinden. 
+Per team kun je ook zoeken naar een specifieke speler via een zoekbalk, om zo sneller een speler te vinden.
 
-# Hoe zit de app in elkaar? #
+# Hoe zit de app in elkaar?
 
 De app werkt als volgt:
 <br><br>
@@ -27,11 +26,12 @@ Als de gebruiker op een van de teams klikt, gaat de app alle spelers van dat tea
 Als alle spelers van het aangeklikte team zijn geladen, komt de gebruiker op de detailed page. Vanuit deze pagina is het mogelijk voor de gebruiker om een speler aan te klikken, en om hier zijn statistieken te zien. <br>
 Ook kan de gebruiker een bepaalde speler opzoeken door middel van de zoekbalk.
 
-# De gebruikte API #
+# De gebruikte API
 
-Tijdens dit project heb ik gebruik gemaakt van een gratis API, genaamd "Free NBA" van theapiguy (https://rapidapi.com/theapiguy/api/free-nba/details). 
+Tijdens dit project heb ik gebruik gemaakt van een gratis API, genaamd "Free NBA" van theapiguy (https://rapidapi.com/theapiguy/api/free-nba/details).
 <br><br>
 Deze API heeft een paar verschillende endpoints, namelijk:
+
 - Players
 - Teams
 - Games
@@ -44,14 +44,15 @@ Dit zorgde, voor mij als nieuweling, voor veel irritaties.
 
 # Actor Diagram:
 
-![Actor diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/actor_diagram2.JPG?raw=true)
+<img src="https://imgur.com/tOwxDnw.png">
 
 # Interaction Diagram:
 
 ![Interaction diagram](https://github.com/johancvb/web-app-from-scratch-2021/blob/master/nba_app/img/interaction_diagram2.JPG?raw=true)
 
-# ReadMe's #
-- ReadMe week 3 
+# ReadMe's
+
+- ReadMe week 3
 
 Deze week heb ik met hulp van een teamgenoot mijn code veel overzichtelijker en effetiever gemaakt.
 Ook heb ik deze week mijn routing geïmplementeerd, en de detail pagina werkend gemaakt.
@@ -62,22 +63,20 @@ van de API data.
 Ik ga in de vakantie vooral werken aan het afronden van de app. Ik moet nog een loading state implementeren,
 en de styling van de app veranderen. Ook wil ik nog een nieuwe functie voor mijn detailed pagina toepassen.<br><br>
 
-- ReadMe week 2 
+- ReadMe week 2
 
 Ik heb deze week mijn web app uitgebreid met een detailed page.
 Hij werkt, alleen moet er nog veel gedaan worden aan de styling. Ook moet ik nog routing toepassen, maar zie dat als een grote uitdaging.
 Deze week heb ik ook mijn actor diagram en interaction diagram gemaakt. Deze laten de structuur en werking van mijn app zien.
 
-Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt, 
-je naar de detailed page gaat met een lijst van de basketballspelers van dat team. 
+Op mijn overview page zie je nu de 30 NBA teams. Het is de bedoeling dat als je op een team klikt,
+je naar de detailed page gaat met een lijst van de basketballspelers van dat team.
 
 Als je op een van de spelers klikt, verschijnt er een popup met de bijbehorende informatie van die speler, zoals lengte, positie, gewicht enz.
 
 Volgende week wil ik de routing werkend hebben, zodat ik daarna kan beginnen aan het stylen van de web app.<br><br>
 
-
-
-- ReadMe week 1 
+- ReadMe week 1
 
 ---Hier een link naar mijn opdracht:---
 https://johancvb.github.io/web-app-from-scratch-2021/
@@ -109,6 +108,6 @@ Als de gebruiker op een speler klikt, komt er informatie tevoorschijn via een po
 Ik wil een overview page met alle teams, met per team een lijst met spelers. Als je op een speler klikt, komt er een detailed page popup die alle informatie van die speler laat zien.
 
 ---Wat wil ik nog toevoegen?---
-Aangezien ik nog nooit met API's heb gewerkt lijkt het me qua tijd verstandig om het niet te overdreven te maken. 
+Aangezien ik nog nooit met API's heb gewerkt lijkt het me qua tijd verstandig om het niet te overdreven te maken.
 Maar als ik tijd genoeg heb, wil ik nog filters toepassen, en een zoekbalk.
 Ook zou ik graag nog een API willen koppelenn met mijn app, zodat er per speler ook nog een foto van de speler tevoorschijn komt.
